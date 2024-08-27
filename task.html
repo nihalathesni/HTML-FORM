@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+            <h2>Contact us</h2>
+            <form action="/submit" method="post">
+              <div class="first">
+                <table><tr>
+                    <th>First Name*</th>
+                    <th>Last Name*</th>
+                </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr></table>
+              </div>
+              <label for="email">Email Address*</label>
+              <br> 
+              <input type="email" id="eml" >
+              <label for="select"></label>
+              <table class="ta2">
+                <tr id="sec">
+                  <tr>
+                  <th>Quiry type* </th>
+                </tr><tr>
+                    <td id="ta14"><input type="radio" id="a" name="sel">General Encuiry</td>
+                    <td id="ta14"><input type="radio" id="b" name="sel">Support Reqest</td> <br>
+                </tr>
+                
+              </table>
+            
+            <label for="message">Message*</label>
+            <input type="text" id="msg">
+            <input type="checkbox" id="ch1"> I consesnt to being contected by the terms*
+            </form>
+               <button>submitt</button>
+    </div>
+</body>
+</html>
